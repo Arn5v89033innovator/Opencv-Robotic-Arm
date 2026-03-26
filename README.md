@@ -102,5 +102,5 @@ python main.py
 
 ## 🧑‍💻 Author
 
-Arnav Upadhyay
+Arnav Upadhyay. I spent 6hrs in buliding this project
 
