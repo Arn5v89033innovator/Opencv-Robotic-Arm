@@ -51,7 +51,6 @@ while True:
             data = f"S{shoulder_angle}E{elbow_angle}G{gripper_angle}\n"
             arduino.write(data.encode())
 
-            # Debug info
             cv2.putText(img, f"Shoulder: {shoulder_angle}", (10, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2)
             cv2.putText(img, f"Elbow: {elbow_angle}", (10, 80), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2)
             cv2.putText(img, f"Gripper: {gripper_angle}", (10, 120), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
